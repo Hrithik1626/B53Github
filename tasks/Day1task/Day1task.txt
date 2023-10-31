@@ -1,0 +1,23 @@
+1.Difference Between HTTP1.1 AND HTTP2.
+
+It works on the textual format.	It works on the binary protocol.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.	It allows multiplexing so one TCP connection is required for multiple requests.
+It uses requests resource Inlining for use getting multiple pages.	It uses PUSH frame by server that collects all multiple pages 
+It compresses data by itself.	It uses HPACK for data compression.
+
+2.Objects in Javascript:
+•	Booleans
+•	Numbers 
+•	Strings 
+•	Dates 
+•	Maths 
+•	Regular expressions 
+•	Arrays 
+•	Functions 
+•	Objects 
+3.Internal Representation in Javascript:
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
